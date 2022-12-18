@@ -4,6 +4,8 @@ game 'gta5'
 
 ui_page('html/index.html') 
 
+shared_script { 'config.lua' }
+
 client_scripts {
     'client/main.lua',
 }
